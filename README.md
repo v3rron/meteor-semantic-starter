@@ -30,4 +30,5 @@ hybrid:assets
 
 ## Configuration
 Create settings.json file in /private folder
+
 More about Meteor.settings [here](http://docs.meteor.com/#/full/meteor_settings)

@@ -1,8 +1,12 @@
 # meteor-semantic-starter
 Meteor Starter Project with Bower integration and Semantic UI preconfigured
 
-## Preinstalled packages
+## Configuration
+Create settings.json file in /private folder
 
+More about Meteor.settings [here](http://docs.meteor.com/#/full/meteor_settings)
+
+### Preinstalled packages
 meteor-platform
 insecure
 accounts-password
@@ -27,8 +31,3 @@ raix:handlebar-helpers
 fourseven:scss
 aldeed:template-extension
 hybrid:assets
-
-## Configuration
-Create settings.json file in /private folder
-
-More about Meteor.settings [here](http://docs.meteor.com/#/full/meteor_settings)

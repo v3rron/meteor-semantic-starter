@@ -1,0 +1,30 @@
+# Meteor packages used by this project, one per line.
+# Check this file (and the other files in this directory) into your repository.
+#
+# 'meteor add' and 'meteor remove' will edit this file for you,
+# but you can also edit it by hand.
+
+meteor-platform
+insecure
+accounts-password
+accounts-facebook
+accounts-google
+useraccounts:semantic-ui
+iron:router
+semantic:ui
+flemay:less-autoprefixer
+mystor:device-detection
+stevezhu:lodash
+matb33:collection-hooks
+aldeed:simple-schema
+aldeed:collection2
+service-configuration
+splendido:accounts-meld
+mquandalle:bower
+alanning:roles
+msavin:jetsetter
+msavin:mongol
+raix:handlebar-helpers
+fourseven:scss
+aldeed:template-extension
+hybrid:assets

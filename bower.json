@@ -1,0 +1,23 @@
+{
+  "name": "my-app",
+  "version": "0.0.1",
+  "authors": [
+    "Ronen Verdi"
+  ],
+  "description": "don't code today what you can't debug tomorrow",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    ""
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {}
+}

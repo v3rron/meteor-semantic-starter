@@ -1,0 +1,29 @@
+<template name="_header">
+  <div class="ui attached menu">
+    <div class="ui container">
+      <a id="home_link" class="item">
+        App Logo
+      </a>
+      {{#if isLoggedIn }}
+        <a id="logout_btn" class="item">
+          <i class="sign out icon"></i> Logout
+        </a>
+      {{else}}
+        {{#if $eq currentRoute "register"}}
+          <a id="login_btn" class="item">
+            <i class="grid layout icon"></i> Login
+          </a>
+        {{else}}
+          <a id="signup_btn" class="item">
+            <i class="grid layout icon"></i> Sign Up
+          </a>
+        {{/if}}
+      {{/if}}
+      <div class="right item">
+        <button id="feedback_btn" class="ui button basic">
+          <i class="icon announcement"></i> Feedback
+        </button>
+      </div>
+    </div>
+  </div>
+</template>

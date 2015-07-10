@@ -1,0 +1,30 @@
+<template name="hello">
+  <h1 class="ui header">Hello</h1>
+  <div class="ui centered card">
+    <div class="image">
+      {{#if currentUser.profile.picture}}
+      <img src="{{ currentUser.profile.picture }}">
+      {{else}}
+      <img src="img/user-thumbnail_lg.png">
+      {{/if}}
+    </div>
+    <div class="content">
+      <div class="header">{{currentUser.profile.first_name}} {{currentUser.profile.last_name}}</div>
+      <div class="meta">
+        <a>Coworker</a>
+      </div>
+      <div class="description">
+        {{currentUser.profile.first_name}} {{currentUser.profile.last_name}} is an interior designer living in New York.
+      </div>
+    </div>
+    <div class="extra content">
+      <span class="right floated">
+        Joined in 2015
+      </span>
+      <span>
+        <i class="user icon"></i>
+        75 Friends
+      </span>
+    </div>
+  </div>
+</template>

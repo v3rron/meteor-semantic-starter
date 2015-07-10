@@ -1,0 +1,10 @@
+### General
+.idea
+.DS_Store
+
+### Meteor template
+.meteor/local
+.meteor/meteorite
+settings.json
+client/lib/semantic-ui/*
+!client/lib/semantic-ui/custom.semantic.json

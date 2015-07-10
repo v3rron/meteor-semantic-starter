@@ -1,0 +1,31 @@
+<template name="stepOne">
+  <div class="ui center aligned three column stackable page grid">
+    <div class="at-left ten wide column">
+      <form class="ui form">
+        <div class="two fields">
+          <div class="field">
+            <label>First Name</label>
+            <input data-field="first_name" placeholder="First Name" type="text">
+          </div>
+          <div class="field">
+            <label>Last Name</label>
+            <input data-field="last_name" placeholder="Last Name" type="text">
+          </div>
+        </div>
+        <div class="field">
+          <label>Gender</label>
+          <div class="ui selection dropdown">
+            <div class="default text">Select</div>
+            <i class="dropdown icon"></i>
+            <input data-field="gender" type="hidden" name="gender">
+            <div class="menu">
+              <div class="item" data-value="male"><i class="male icon"></i> Male</div>
+              <div class="item" data-value="female"><i class="female icon"></i> Female</div>
+            </div>
+          </div>
+        </div>
+        <button type="submit" class="ui primary button">Submit</button>
+      </form>
+    </div>
+  </div>
+</template>
